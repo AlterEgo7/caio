@@ -72,11 +72,11 @@ scalacOptions ++= Seq(
 javacOptions ++= Seq("-target", "1.8", "-source", "1.8", "-Xlint:deprecation")
 
 libraryDependencies ++= Seq(
-  "org.typelevel"        %% "cats-mtl"            % "1.1.2",
-  "org.typelevel"        %% "cats-effect"         % "3.1.0",
+  "org.typelevel"        %% "cats-mtl"            % "1.2.0",
+  "org.typelevel"        %% "cats-effect"         % "3.1.1",
   "org.typelevel"        %% "cats-mtl-laws"       % "1.1.2" % "test",
-  "org.typelevel"        %% "cats-effect-laws"    % "3.0.1" % "test",
-  "org.typelevel"        %% "cats-effect-testkit" % "3.0.1" % "test",
+  "org.typelevel"        %% "cats-effect-laws"    % "3.1.1" % "test",
+  "org.typelevel"        %% "cats-effect-testkit" % "3.1.1" % "test",
   "org.typelevel"        %% "discipline-munit"    % "1.0.6" % "test",
   "com.github.alterego7" %% "alphabet-soup"       % "0.4.0",
   "org.scalatest"        %% "scalatest"           % "3.0.8" % "test"
